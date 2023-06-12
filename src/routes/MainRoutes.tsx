@@ -3,6 +3,7 @@ import HomeLayout from "../components/layout/Authlayout";
 
 import SignIn from "../pages/Auth/SignIn";
 import Authpage from "../pages/Authurpage/Authpage";
+import SignUp from "../pages/Auth/SignUp";
 
 export const element = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ export const element = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <SignUp />,
+      },
+      {
+        path: "/signin",
         element: <SignIn />,
       },
       {
