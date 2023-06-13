@@ -3,7 +3,7 @@ import pics from "../../assets/teacher-profile.webp";
 
 const Profile: React.FC = () => {
   return (
-    <div className="w-[100%] h-[100vh]">
+    <div className="w-[100%] h-[80vh]">
       <div className="h-[50vh] bg-[#FEF0EF] flex justify-between">
         <div className="h-[100%] w-[25%]">
           <div className=" h-[300px] w-[280px] relative top-24 left-16 shadow-lg bg-white flex items-center justify-center ">
@@ -12,17 +12,19 @@ const Profile: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="h-[100%] w-[74%] flex items-end ">
-          <div className=" h-[75%] w-[100%] flex-col ">
-            <div className=" h-[25%] w-[100%] flex items-center justify-between ">
-              <div className="flex h-[100%] w-[500px] ">
+        <div className="h-[100%] w-[73%] flex items-end ">
+          <div className=" h-[68%] w-[100%] flex-col ">
+            <div className=" h-[25%] w-[100%] flex items-center ">
+              <div className="flex h-[100%] w-[500px] mr-[100px] ">
                 {" "}
-                <p className=" text-3xl ">Hardy Fowler</p>
+                <p className=" text-xl ">Hardy Fowler</p>
                 <p className=" align-baseline ">illustrator & Artist</p>
               </div>
-              <button>Follow</button>
+              <button className=" h-[50px] w-[200px] rounded-xl border-2 border-red-300 text-red-300 text-lg  ">
+                Follow
+              </button>
             </div>
-            <div className=" h-[50%]  flex items-center justify-center ">
+            <div className=" h-[50%] w-[90%] flex items-center justify-center ">
               Hi, my name is Amelie.
               <br />I am a photo artist and art director from Munich. Last year
               I was chosen to be one of the nine Adobe Creative Residents in

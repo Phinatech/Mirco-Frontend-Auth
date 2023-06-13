@@ -3,8 +3,8 @@ import SignIn from "../pages/Auth/SignIn";
 import Authpage from "../pages/Authurpage/Authpage";
 import ProfileLayout from "../components/layout/ProfileLayout";
 import Authlayout from "../components/layout/Authlayout";
-import Profile from "../pages/ProfilePage/Profile";
 import SignUp from "../pages/Auth/SignUp";
+import ProfileScreen from "../pages/ProfilePage/ProfileScreen";
 
 export const element = createBrowserRouter([
   {
@@ -32,7 +32,7 @@ export const element = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Profile />,
+        element: <ProfileScreen />,
       },
     ],
   },
