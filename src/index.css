@@ -1,4 +1,18 @@
 :root {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+=======
+  font-family: "Poppins", sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+>>>>>>> 52640a1e1094166a6dec220a70b43f033959615a
+=======
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -7,6 +21,7 @@
   font-family: "Poppins", sans-serif;
 
  
+>>>>>>> 6016f567501295208cef91203ee9a651d04ec264
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
