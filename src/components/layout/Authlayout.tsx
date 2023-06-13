@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import { Footer, Header } from "..";
+
+import AuthNavBar from "../blocks/homeblock/AuthNavBar";
 
 const Authlayout = () => {
   return (
-    <div>
-      <Header />
+    <div className="flex w-full ">
+      <AuthNavBar />
       <Outlet />
-      <Footer />
     </div>
   );
 };
