@@ -5,6 +5,8 @@ import ProfileLayout from "../components/layout/ProfileLayout";
 import Authlayout from "../components/layout/Authlayout";
 import Profile from "../pages/ProfilePage/Profile";
 
+import SignUp from "../pages/Auth/SignUp";
+
 export const element = createBrowserRouter([
   {
     path: "/",
@@ -12,6 +14,10 @@ export const element = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <SignUp />,
+      },
+      {
+        path: "/signin",
         element: <SignIn />,
       },
       {
